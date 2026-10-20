@@ -1,0 +1,145 @@
+{
+  "id": "p122",
+  "title": "Acoustic Membrane Mass Tuning",
+  "category": "Metamaterials",
+  "silhouette": "lattice",
+  "slowMotion": false,
+  "falseColor": false,
+  "nodes": [
+    {
+      "id": "n1",
+      "glyph": "membrane",
+      "label": "Membrane",
+      "role": "path",
+      "x": 0.22,
+      "y": 0.24
+    },
+    {
+      "id": "n2",
+      "glyph": "plate",
+      "label": "Attached mass",
+      "role": "structure",
+      "x": 0.5,
+      "y": 0.24
+    },
+    {
+      "id": "n3",
+      "glyph": "cell",
+      "label": "Two masses in otherwise matched cells",
+      "role": "path",
+      "x": 0.78,
+      "y": 0.24
+    },
+    {
+      "id": "n4",
+      "glyph": "telemetry",
+      "label": "Changed modal response",
+      "role": "path",
+      "x": 0.22,
+      "y": 0.52
+    },
+    {
+      "id": "n5",
+      "glyph": "wave",
+      "label": "Qualitative transmission bands",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.52
+    },
+    {
+      "id": "n6",
+      "glyph": "plate",
+      "label": "Panel-level interpretation",
+      "role": "structure",
+      "x": 0.78,
+      "y": 0.52
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "role": "path",
+      "start": 0,
+      "end": 1019
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "role": "path",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    }
+  ],
+  "emphasis": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n3"
+    ],
+    [
+      "n4"
+    ],
+    [
+      "n5"
+    ],
+    [
+      "n6"
+    ]
+  ],
+  "stages": [
+    {
+      "f0": 0,
+      "f1": 149,
+      "action": "Reveal membrane and attached mass",
+      "detail": "Establish the full assembly, then make a measured three-quarter push toward the active region."
+    },
+    {
+      "f0": 150,
+      "f1": 299,
+      "action": "Compare two masses in otherwise matched cells",
+      "detail": "Use a sectional close-up and identify only the components required for this mechanism."
+    },
+    {
+      "f0": 300,
+      "f1": 509,
+      "action": "Show changed modal response",
+      "detail": "Track the primary causal pathway, keeping inputs, outputs, and control overlays distinct."
+    },
+    {
+      "f0": 510,
+      "f1": 749,
+      "action": "Compare qualitative transmission bands",
+      "detail": "Follow the resulting response with readable labels and a separate qualitative inset if useful."
+    },
+    {
+      "f0": 750,
+      "f1": 1019,
+      "action": "Return to panel-level interpretation",
+      "detail": "Pull back to a stable system overview; retain visible losses, limits, or uncertainty where relevant."
+    }
+  ]
+}
