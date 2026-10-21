@@ -4,6 +4,8 @@
 
 Live plate: https://mizcausevic-dev.github.io/acoustic-membrane-mass-tuning-explainer/
 
+Repository: https://github.com/mizcausevic-dev/acoustic-membrane-mass-tuning-explainer
+
 ## What this is
 
 An interactive anatomy plate for Acoustic Membrane Mass Tuning. Play, scrub, or jump the five stages. The same frame always draws the same picture.
