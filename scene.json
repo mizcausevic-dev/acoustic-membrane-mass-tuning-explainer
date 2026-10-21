@@ -11,8 +11,8 @@
       "glyph": "membrane",
       "label": "Membrane",
       "role": "path",
-      "x": 0.22,
-      "y": 0.24
+      "x": 0.14,
+      "y": 0.32
     },
     {
       "id": "n2",
@@ -20,23 +20,23 @@
       "label": "Attached mass",
       "role": "structure",
       "x": 0.5,
-      "y": 0.24
+      "y": 0.32
     },
     {
       "id": "n3",
       "glyph": "cell",
       "label": "Two masses in otherwise matched cells",
       "role": "path",
-      "x": 0.78,
-      "y": 0.24
+      "x": 0.86,
+      "y": 0.32
     },
     {
       "id": "n4",
       "glyph": "telemetry",
       "label": "Changed modal response",
       "role": "path",
-      "x": 0.22,
-      "y": 0.52
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n5",
@@ -44,15 +44,15 @@
       "label": "Qualitative transmission bands",
       "role": "path",
       "x": 0.5,
-      "y": 0.52
+      "y": 0.7
     },
     {
       "id": "n6",
       "glyph": "plate",
       "label": "Panel-level interpretation",
       "role": "structure",
-      "x": 0.78,
-      "y": 0.52
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
